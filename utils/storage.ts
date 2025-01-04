@@ -1,3 +1,4 @@
+import { BACKEND_URL } from "@/consts";
 import { MMKV } from "react-native-mmkv";
 
 export const storage = new MMKV();
